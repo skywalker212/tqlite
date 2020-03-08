@@ -1,5 +1,5 @@
 src = ./src/
-tqlite: tqlite.o
+tqlite: clean tqlite.o
 	gcc tqlite.o -o tqlite
 
 tqlite.o:
